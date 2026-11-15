@@ -1,5 +1,14 @@
 import java.util.Scanner;
 
+/**
+ * Calculates and prints the cost
+ * of a room based on user-inputed
+ * sizes and costs.
+ * 
+ * @author Mason Heuberger, mheuberger@student.sdccd.edu
+ * @version 1.0
+ * @since 2026-11-15
+ */
 public class CarpetCostDemo {
     public static void main(String args[]) {
         Scanner kb = new Scanner(System.in);
