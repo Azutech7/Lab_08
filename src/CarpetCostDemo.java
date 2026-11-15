@@ -18,7 +18,7 @@ public class CarpetCostDemo {
         tempCost = kb.nextDouble();
 
         CarpetCost room1 = new CarpetCost(new RoomSize(tempName, tempLength, tempWidth), tempCost);
-        System.out.println("\n"+room1+"\n")
+        System.out.println("\n"+room1+"\n");
 
         /* Room #2 */
         System.out.print("Enter Room Name: ");
