@@ -24,7 +24,7 @@ public class RoomSize {
         str += "Room Name: "+name;
         str += "\nLength: "+length;
         str += "\nWidth: "+width;
-        str += "\nArea: "+getArea();
+        str += "Area: %.2f".formatted(getArea());
 
         return str;
     }

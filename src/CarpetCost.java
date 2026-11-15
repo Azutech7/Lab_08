@@ -14,8 +14,8 @@ public class CarpetCost {
     public String toString() {
         String str = size.toString();
 
-        str += "\nThe cost per sq ft is: $"+costPerSqFt;
-        str += "\nThe total cost is: $"+getCost();
+        str += "\nThe cost per sq ft is: $%.2f".formatted(costPerSqFt);
+        str += "\nThe total cost is: $%.2f".formatted(getCost());
 
         return str;
     }
