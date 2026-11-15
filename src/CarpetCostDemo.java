@@ -16,6 +16,7 @@ public class CarpetCostDemo {
         tempWidth = kb.nextDouble();
         System.out.print("Enter cost per square foot: $");
         tempCost = kb.nextDouble();
+        kb.nextLine(); // clear carriage return
 
         CarpetCost room1 = new CarpetCost(new RoomSize(tempName, tempLength, tempWidth), tempCost);
         System.out.println("\n"+room1+"\n");
